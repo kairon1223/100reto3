@@ -5,16 +5,42 @@
     border-bottom-left-radius: 40px;
     background-image: linear-gradient(to right , rgb(245, 166, 134) , rgb(245, 63, 63));
     justify-content: left;
-   
 }
 .imagen{
     width: 900px;
 }
 .conte a{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     text-decoration: none;
     display: flex;
 }
+
+
+
+.listabotones a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.laptop{
+width: 500px;
+height: auto;
+margin-left:600px;
+position: relative;
+top: 350px;
+left: 100px;
+
+
+ 
+}
+
+.computadora{
+    height: 0px;
+}
+
 
 
 
