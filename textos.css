@@ -6,7 +6,7 @@
 }
 
 .texto2{
-    margin-top: 70px;
+    margin-top: 90px;
     text-align: center;
     color:rgb(15, 18, 48);
     font-family: 'Overpass';
@@ -15,10 +15,10 @@
     margin-left: 20px;
     font-family:'Overpass' ;
     color:rgb(15, 18, 48);
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .texto4{
-    margin-top: 40px;
+    margin-top: 60px;
     font-family:'Overpass' ;
     color:rgb(15, 18, 48);
     margin-left: 20px;
@@ -35,6 +35,7 @@
     text-align: left;
     color: rgb(53, 51, 51);
     font-family:'Overpass' ;
+    margin-top: 40px;
     
 }
 .boton1{
@@ -60,15 +61,32 @@
 .boton4{
     position: absolute;
     margin: 20px;
-    left: 1130px;
+    left: 1090px;
     top: 20px ;
     font-size: 15px
 }
 .boton5{
     position: absolute;
     margin: 20px;
-    left: 1190px;
+    left: 1150px;
     top: 20px ;
     font-size: 15px 
+}
+.boton6{
+    position: absolute;
+    text-align:center;
+    margin-top: 20px; ;
+    
+}
+.boton7{
+    position: absolute;
+    justify-content: center;
+    margin-top: 40px;
+}
+.texto5{
+    margin-top: 60px;
+    font-family:'Overpass' ;
+    color:rgb(15, 18, 48);
+    
 }
 
