@@ -14,6 +14,7 @@
   font-size: 15px;
 }
 .boton3 {
+  display: flex;
   padding: 10px;
   position: absolute;
   margin: 20px;
@@ -52,36 +53,69 @@
   margin-top: 20px;
 }
 .boton7 {
-  position: absolute;
+  position:absolute;
   margin-left: 650px;
   margin-top: 20px;
   border: 1px solid white;
   border-radius: 30px;
   padding: 10px;
+  
 }
 .boton4:hover {
-  box-shadow: 0 3px 0 rgb(127, 128, 131);
-  text-shadow: 0 1px 0 rgb(96, 99, 100);
+  
   background-color: white;
   color: tomato;
 }
 
 .boton5:hover {
-  box-shadow: 0 3px 0 rgb(127, 128, 131);
-  text-shadow: 0 1px 0 rgb(96, 99, 100);
   background-color: white;
   color: tomato;
 }
+
 .boton7:hover {
-  box-shadow: 0 3px 0 rgb(127, 130, 131);
-  text-shadow: 0 1px 0 rgb(96, 99, 100);
+
   background-color: white;
   color: tomato;
 }
 
 .boton6:hover {
-  box-shadow: 0 3px 0 rgb(127, 128, 131);
-  text-shadow: 0 1px 0 rgb(96, 99, 100);
   background-color: white;
   color: tomato;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#menuu{
+  list-style: none;
+  margin:auto;
+  width: 700px;
+}
+
+ul,ol{
+  list-style: none;
+}
+
+.menu2 ul li a{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 5px 3px;
+  display: block;
+  }
+  .menu2 ul li a:hover{
+    background-color: rgb(73, 72, 72);
+}
+
+.menu2>li{
+  float:left ;
+}
+.menu2 li ul{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+.menu2 li:hover >ul{
+display: block;
 }

@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="textos.css">
   <link rel="stylesheet" href="botones.css">
   
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap" rel="stylesheet">
@@ -17,7 +18,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap" rel="stylesheet">
-  <title>Blogr</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0 , minimun scale=1.0">
+
+<title>Blogr</title>
 </head>
   <body>
 
@@ -34,19 +37,35 @@
        <div class="listabotones">
         
       </div>
-
+       
          <div class="listabotones2">
-          <a class="boton1" href="#">Produt</a>
-       <a class="boton2" href="#">Company</a>
-       <a class="boton3" href="#">Connet</a>
-       <a class="boton4" href="#">Login</a>
-       <a class="boton5" href="#">Sing Up</a>
-       <a class="boton6" href="#">Star for Free</a>
-       <a class="boton7" href="#">Learn More</a>
+          <nav class="navegacion">
+            <ul>
+          <a class="boton1" href="#"><span>Produt <img src="./images/icon-arrow-dark.svg"></span></a>
+          <a class="boton2" href="#"><span>Company <img src="./images/icon-arrow-dark.svg"></span></a>
+          <a class="boton4" href="#"><span>Login</span></a>
+          <a class="boton5" href="#"><span>Sing Up</span></a>
+          <a class="boton6" href="#"><span>Star for Free</span></a>
+          <a class="boton7" href="#"><span>Learn More</span></a>
+         <div id="menuu">
+           <ul class="menu2">
+           <li class="btn12"><a class="boton3 deplegable" href="#"><span> Connet <img src="./images/icon-arrow-dark.svg"></span></a>
+             <ul class="sub_menu">
+               <li><a href="">aaa</a></li>
+               <li><a href="">aaa</a></li>
+               <li><a href="">aaa</a></li>
+             </ul>
+          </li>
+        </ul>
+            </div>
+           </nav>
+          </ul>
        </div>
        
-       
       
+
+
+       
     </header>
     <div class="sub titulos">
     <h2 class="texto2">Designed for the feature</h2>
@@ -93,8 +112,6 @@
 
 
     <footer class="footer"></footer>
-    
-    
-     
+    <script src="./menudesplegable.js"></script>
   </body>
 </html>
