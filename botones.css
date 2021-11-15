@@ -82,6 +82,24 @@
   background-color: white;
   color: tomato;
 }
+/*boton amburguza*/
+
+.ham{
+  display: none;
+  height: auto;
+  cursor: pointer;
+  position: absolute;
+  bottom: 545px;
+  left: 1200px;
+  border: none;
+  background-color: transparent;
+}
+
+/*vercion telefonos*/
+
+
+/*boton amburguza*/
+
 
 *{
   padding: 0px;
@@ -119,3 +137,5 @@ ul,ol{
 .menu2 li:hover >ul{
 display: block;
 }
+
+
