@@ -17,6 +17,16 @@
   justify-content: left;
 }
 
+.logo2{
+  
+  background-image: url(./images/intro.svg), linear-gradient(to right,
+  rgb(245, 166, 134),
+  rgb(241, 62, 62));
+  background-size: 150%;
+  background-position:20% 55% ;
+  background-repeat: no-repeat;
+}
+
 
 
 .listabotones2 a {
@@ -47,7 +57,7 @@
   width: 740px;
   position: absolute;
   right: 759px;
-  top: 1320px;
+  top: 1420px;
   bottom: 00px;
 }
 
