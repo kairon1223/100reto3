@@ -1,5 +1,5 @@
 const hamburgeza = document.getElementById("hamburgeza");
-const lista = document.getElementById("listabotones")
+const lista = document.getElementById("listabotones2")
 const cierre = document.getElementById("cierre")
 
 hamburgeza.addEventListener('click', ()=>{

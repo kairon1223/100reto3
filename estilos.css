@@ -1,8 +1,8 @@
 .telefonos{
 margin-bottom: 200px;
 margin-top: 200px;
-background: rgb(17, 21, 44);
-height: 100px;
+background: rgb(39, 41, 53);
+height: 200px;
 width: auto;
 padding: 60px;
 border-bottom-left-radius: 40px;
@@ -10,10 +10,10 @@ border-top-right-radius: 40px;
 }
 .telefonos img{
     
-    top: 1000px;
+    top: 1050px;
     position: absolute;
     width:auto ;
-    height: 400px;
+    height: 490px;
 }
 footer{
     

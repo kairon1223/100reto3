@@ -69,3 +69,19 @@
   margin-top: 50px;
   
 }
+
+.textotlf{
+  font-size: 30px;
+  font-family: "Overpass";
+  position: absolute;
+  margin-left: 600px;
+  color: white;
+}
+
+.textotlf2{
+  font-family: "Overpass";
+  position: absolute;
+  margin-left: 600px;
+  color: white;
+  margin-top: 55px;
+}
