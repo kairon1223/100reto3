@@ -1,4 +1,5 @@
 .texto1 {
+  line-height: 80px;
   margin-top: 40px;
   color: white;
   text-align: center;
@@ -7,6 +8,7 @@
 }
 
 .texto2 {
+  
   margin-top: 90px;
   text-align: center;
   color: rgb(15, 18, 48);
@@ -26,12 +28,14 @@
 }
 
 .parrafo1 {
+  
   color: white;
   font-family: "Overpass";
   text-align: center;
 }
 
 .parrafo2 {
+  line-height: 25px;
   margin-left: 20px;
   text-align: left;
   color: rgb(53, 51, 51);
@@ -48,6 +52,7 @@
 }
 
 .parrafo4 {
+  line-height: 25px;
   margin-left: 700px;
   margin-top: 20px;
   color: rgb(53, 51, 51);
@@ -62,6 +67,7 @@
   margin-top: 50px;
 }
 .parrafo5 {
+  line-height: 25px;
   font-family: "Overpass";
   color: rgb(15, 18, 48);
   margin-left: 700px;
@@ -79,6 +85,7 @@
 }
 
 .textotlf2{
+  line-height: 25px;
   font-family: "Overpass";
   position: absolute;
   margin-left: 600px;

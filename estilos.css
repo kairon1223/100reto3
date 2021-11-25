@@ -10,7 +10,7 @@ border-top-right-radius: 40px;
 }
 .telefonos img{
     
-    top: 1050px;
+    top: 1040px;
     position: absolute;
     width:auto ;
     height: 490px;
@@ -18,8 +18,7 @@ border-top-right-radius: 40px;
 footer{
     
     background-color: rgb(34, 33, 33);
-    width: 100%;
-    height: 220px;
+    height: 300px;
     border-top-right-radius: 40px;
     padding: 0px 5px 0px 0px;
     margin-top: 300px;

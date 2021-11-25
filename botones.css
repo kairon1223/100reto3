@@ -118,22 +118,26 @@ ul,ol{
 }
 
 .menu2 ul li a{
+  
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   text-decoration: none;
-  padding: 5px 3px;
+  padding: 10px 3px;
   display: block;
   }
   .menu2 ul li a:hover{
-    background-color: rgb(73, 72, 72);
+    background-color: rgb(134, 130, 130);
 }
 
 .menu2>li{
   float:left ;
+  
 }
 .menu2 li ul{
+  
   display: none;
   position: absolute;
+  top: 75px;
   min-width: 140px;
 }
 .menu2 li:hover >ul{
@@ -141,6 +145,99 @@ display: block;
 }
 
 
+/* height="35px" style="margin-top: 30px; margin-left: 20px;"*/
+.imagenlogo2{
+  position: absolute;
+ margin-top: 40px;
+ left: 80px;
+ width: 60px;
+ height: auto;
+}
+.boton9{
+  
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.listabotones3{
+  float: left;
+  display: flex;
+  position:relative;
+  left: 200px;
+  font-family: "Overpass";
+
+}
+
+.boton8{
+  text-decoration: none;
+  position: absolute;
+  left: 82px;
+  margin-top: 50px;
+  
+color: white;
+}
+
+.sub_menu3{
+  line-height: 25px;
+  position: relative;
+  left: 80px;
+  color: white;
+  top: 105px;
+  padding: 0px;
+}
+
+.sub_menu3  a{
+  
+  color: white;
+  text-decoration: none;
+}
 
 
+.boton9{
+  position: absolute;
+  left: 450px;
+  margin-top: -70px;
+}
+
+.sub_menu4{
+  line-height: 25px;
+  position: relative;
+  margin-left: 465px;
+  top: -20px;
+  color: white;
+}
+
+.sub_menu4  a{
+  
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+.boton10{
+   position:relative;
+  text-decoration: none;
+  color: white;
+  margin-left: 754px;
+  top: -165px;
+}
+
+.sub_menu5{
+  padding: 0;
+  position: relative;
+  margin-left: 755px;
+  margin-top: -135px;
+  color: white;
+  line-height: 25px;
+}
+
+.sub_menu5  a{
+ 
+  color: white;
+  text-decoration: none;
+}
 
