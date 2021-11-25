@@ -41,6 +41,9 @@
   display: flex;
   justify-content: left;
 }
+.botonsolo a{
+  color: tomato;
+}
 
 .laptop {
   width: 550px;
