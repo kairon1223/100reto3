@@ -80,23 +80,13 @@
 }
 
 .boton6:hover {
-  background-color: rgb(251, 134, 114);
+  background-color:rgb(255, 115, 127);
   color: white;
 }
 /*boton amburguza*/
 
-.ham{
-  display: none;
-  height: auto;
-  cursor: pointer;
-  position: absolute;
-  bottom: 545px;
-  left: 1200px;
-  border: none;
-  background-color: transparent;
-}
 
-/*vercion telefonos*/
+
 
 
 /*boton amburguza*/
@@ -125,7 +115,7 @@ ul,ol{
   display: block;
   }
   .menu2 ul li a:hover{
-    background-color: rgb(134, 130, 130);
+    background-color: rgb(238, 225, 225);
 }
 
 .menu2>li{
@@ -144,7 +134,6 @@ display: block;
 }
 
 
-/* height="35px" style="margin-top: 30px; margin-left: 20px;"*/
 .imagenlogo2{
   position: absolute;
  margin-top: 40px;
@@ -156,7 +145,7 @@ display: block;
   
   list-style: none;
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .listabotones3{
@@ -173,8 +162,8 @@ display: block;
   position: absolute;
   left: 82px;
   margin-top: 50px;
-  
-color: white;
+  font-size: 19px;
+  color: white;
 }
 
 .sub_menu3{
@@ -194,6 +183,7 @@ color: white;
 
 
 .boton9{
+  font-size: 19px;
   position: absolute;
   left: 450px;
   margin-top: -70px;
@@ -218,6 +208,7 @@ color: white;
 
 
 .boton10{
+  font-size: 19px;
    position:relative;
   text-decoration: none;
   color: white;
@@ -228,14 +219,14 @@ color: white;
 .sub_menu5{
   padding: 0;
   position: relative;
-  margin-left: 755px;
+  margin-left: 759px;
   margin-top: -135px;
   color: white;
   line-height: 25px;
 }
 
 .sub_menu5  a{
- 
+
   color: white;
   text-decoration: none;
 }
