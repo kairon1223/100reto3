@@ -1,4 +1,5 @@
 .telefonos{
+
 margin-bottom: 200px;
 margin-top: 200px;
 background: rgb(39, 41, 53);
@@ -8,21 +9,30 @@ padding: 60px;
 border-bottom-left-radius: 40px;
 border-top-right-radius: 40px;
 }
+.tlf22{
+background: url(./images/bg-pattern-circles.svg), rgb(51, 48, 71);
+background-size: 59%;
+  background-position:-29% 85% ;
+  background-repeat: no-repeat;
+  
+}
+
 .telefonos img{
     
-    top: 1040px;
+    top: 1073px;
     position: absolute;
     width:auto ;
     height: 490px;
 }
 footer{
-    
     background-color: rgb(34, 33, 33);
     height: 300px;
     border-top-right-radius: 40px;
     padding: 0px 5px 0px 0px;
     margin-top: 300px;
      }
+
+
 
 
 
