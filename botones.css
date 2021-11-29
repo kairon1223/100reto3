@@ -103,17 +103,19 @@ ul,ol{
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   text-decoration: none;
-  padding: 10px 3px;
+  padding: 15px 3px;
   display: block;
+ font-family: "Overpass";
+ display: flex;
+ justify-content: center;
+  
+  
   }
   .menu2 ul li a:hover{
     background-color: rgb(238, 225, 225);
 }
 
-.menu2>li{
-  float:left ;
-  
-}
+
 .menu2 li ul{
   
   display: none;
@@ -223,11 +225,13 @@ display: block;
   text-decoration: none;
 }
 
+
+
 /*boton amburguza*/
 
 #ham{
   
-  display: none;
+ display: none;
   padding: 10px;
   width: 50px;
   height: 50px;
@@ -259,7 +263,7 @@ display: block;
   }
  #ham{
   font-size: 2000px;
-  left: 300px;
+  left: 280px;
   top: -1820px;
     background-color: black;
     display: block;
@@ -319,10 +323,11 @@ background-size: 150%;
     font-size: 100%;
   }
 
-  .boton1,.boton2,.boton3{
-    
-    display: flex;
-    flex-direction: column;
+  .boton6{
+    display: block;
+    position: absolute;
+    left: 4000px;
+    right: 20px;
   }
   .logoimg{
     height:25px;
@@ -332,18 +337,18 @@ background-size: 150%;
 
 
   .texto1{
-    top: 40px;
-    position:absolute;
+    top: 50px;
+    position:relative;
     font-size: 70% ;
-    width: 100%;
+    width: 60%;
     line-height: 25px;
   
-   margin-left:5% ;
+   margin-left:80px ;
   }
   .parrafo1{
-    left: 50px;
-    top: 250px;
-    position: absolute;
+    margin-left: 20px;
+    top: 150px;
+    position: relative;
   }
   .footer{
     width: 100%;
@@ -353,7 +358,7 @@ border-top-right-radius: 70px;
   }
 
   .listabotones3{
-    position: absolute;
+  
     
     display: flex;
     flex-direction: column;
@@ -404,6 +409,7 @@ border-top-right-radius: 70px;
     left: 80px;
   }
   .texto5{
+    font-size: 30px;
     position: relative;
     left: 80px;
   }
@@ -419,4 +425,24 @@ border-top-right-radius: 70px;
     position: relative;
     right: 20px;
   }
+
+  .texto6{
+    font-size: 30px;
+   width: 100%;
+   position: absolute;
+   left:-55px;
+   
+    }
+
+    .parrafo6{
+      position: relative;
+      left: 100px;
+    }
+    .laptop{
+      width: 200px;
+
+      left:-55px;
+      position: relative;
+    
+    }
 }

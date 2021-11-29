@@ -37,8 +37,6 @@
 }
 
 .parrafo2 {
-  flex-wrap: wrap;
-  max-width: 378px;
   line-height: 25px;
   margin-left: 20px;
   text-align: left;
