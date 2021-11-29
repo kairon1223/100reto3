@@ -6,8 +6,8 @@ background: rgb(39, 41, 53);
 height: 200px;
 width: auto;
 padding: 60px;
-border-bottom-left-radius: 40px;
-border-top-right-radius: 40px;
+border-bottom-left-radius: 70px;
+border-top-right-radius: 70px;
 }
 .tlf22{
 background: url(./images/bg-pattern-circles.svg), rgb(51, 48, 71);

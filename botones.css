@@ -83,14 +83,6 @@
   background-color:rgb(255, 115, 127);
   color: white;
 }
-/*boton amburguza*/
-
-
-
-
-
-/*boton amburguza*/
-
 
 *{
   padding: 0px;
@@ -231,3 +223,200 @@ display: block;
   text-decoration: none;
 }
 
+/*boton amburguza*/
+
+#ham{
+  
+  display: none;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 545px;
+  left: 1200px;
+  border: none;
+  background-color: transparent;
+}
+
+
+/*boton amburguza*/
+
+@media screen and (max-width:378px){
+   .contenedor{
+     display: block;
+     max-width: 378px;
+     width: 100%;
+     
+    
+   }
+  .parrafo2{
+    position: relative;
+    width: 60%;
+    left: 50px;
+    font-size: 100%;
+    display:flex;
+  }
+ #ham{
+  font-size: 2000px;
+  left: 300px;
+  top: -1820px;
+    background-color: black;
+    display: block;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 545px;
+   
+    margin-top: 20px;
+    margin-left: 20px;
+    border: none;
+    background-color: transparent;
+  }
+
+   .contenedor{
+     overflow: hidden;
+   }
+  .listabotones2{
+   display: none;
+    margin-left: 20px;
+  }
+  .contenedordeheder,.telefonos,.primerostextoseimagenes{
+     display: block;
+     flex-direction: column;
+  }
+  .telefonos{
+    height: 500px;
+  }
+  .telefonos img{
+    height: 400px;
+    left: 10px;
+    margin-top:300px;
+  }
+  .tlf22{
+    background: url(./images/bg-pattern-circles.svg), rgb(51, 48, 71);
+background-size: 150%;
+  background-position:60%  -400% ;
+  background-repeat: no-repeat;
+  }
+  .textotlf{
+    position: absolute;
+    display: flex;
+    left: -515px;
+    margin-top: 200px;
+    width: 70%;
+    font-size: 200%;
+  }
+  .textotlf2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: -550px;
+    margin-top: 300px;
+    width: 100%;
+    font-size: 100%;
+  }
+
+  .boton1,.boton2,.boton3{
+    
+    display: flex;
+    flex-direction: column;
+  }
+  .logoimg{
+    height:25px;
+    top: 30px;
+     margin-left: 100px;
+  }
+
+
+  .texto1{
+    top: 40px;
+    position:absolute;
+    font-size: 70% ;
+    width: 100%;
+    line-height: 25px;
+  
+   margin-left:5% ;
+  }
+  .parrafo1{
+    left: 50px;
+    top: 250px;
+    position: absolute;
+  }
+  .footer{
+    width: 100%;
+    height: 900px;
+border-top-right-radius: 70px;
+    
+  }
+
+  .listabotones3{
+    position: absolute;
+    
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+   left: 20px;
+   
+    
+  }
+  .boton8{
+    top: 10%;
+    left: 20%;
+  }
+  .sub_menu3{
+    margin-top: 10%;
+    margin-left: 60px;
+  }
+  .boton9{
+    top:59%;
+    left: 20%;
+  }
+  
+  .sub_menu4{
+    margin-top: 45%;
+    margin-left: 150px;
+  }
+
+  .boton10{
+    margin-left: 20%;
+    top:100px;
+  }
+  .sub_menu5{
+   
+    margin-left: 150px; ;
+    margin-top: 130px;
+
+  }
+  .imagenlogo2{
+    left: 145px;
+    width: 88px;
+  }
+  .texto3{
+    position: relative;
+    left: 30px;
+  }
+
+  .texto4{
+    position: relative;
+    left: 80px;
+  }
+  .texto5{
+    position: relative;
+    left: 80px;
+  }
+  .parrafo4{
+    position: relative;
+    margin-left: 60px;
+    color: black;
+    width: 70%;
+    font-size: 100%;
+  }
+
+  .parrafo5{
+    position: relative;
+    right: 20px;
+  }
+}
