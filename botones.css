@@ -319,9 +319,9 @@ display: block;
     height: 500px;
   }
   .telefonos img{
-    height: 400px;
+    height:55%;
     left: 10px;
-    margin-top:300px;
+    margin-top:89%;
   }
   .tlf22{
     background: url(./images/bg-pattern-circles.svg), rgb(51, 48, 71);
@@ -333,7 +333,7 @@ background-size: 150%;
     position: absolute;
     display: flex;
     left: -515px;
-    margin-top: 200px;
+    margin-top: 40%;
     width: 70%;
     font-size: 200%;
   }
@@ -342,7 +342,7 @@ background-size: 150%;
     display: flex;
     justify-content: center;
     left: -550px;
-    margin-top: 300px;
+    margin-top: 100%;
     width: 100%;
     font-size: 100%;
   }
@@ -471,7 +471,7 @@ border-top-right-radius: 70px;
     .laptop{
       width: 400px;
       top: 420px;
-      left: -565px;
+      left: -150%;
       position:relative;
       display: flex;
     
