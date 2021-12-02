@@ -284,13 +284,14 @@ display: block;
   .parrafo2{
     position: relative;
     width: 60%;
-    left: 50px;
+    top: 200%;
+    left: 15%;
     font-size: 100%;
-    display:flex;
+   
   }
  #ham{
-  left: 280px;
-  top: 20px;
+  left: 80%;
+  top: -35%;
     background-color: black;
     display: block;
     padding: 10px;
@@ -298,8 +299,6 @@ display: block;
     height: 50px;
     cursor: pointer;
     position: relative;
-    bottom: 545px;
-    margin-top: -150px;
     border: none;
     background-color: transparent;
   }
@@ -309,19 +308,18 @@ display: block;
    }
   .listabotones2{
    display: none;
-    left: 20px;
   }
   .contenedordeheder,.telefonos,.primerostextoseimagenes{
      display: block;
      flex-direction: column;
   }
   .telefonos{
-    height: 500px;
+    height:100%;
   }
   .telefonos img{
     height:55%;
     left: 10px;
-    margin-top:89%;
+    top:259%;
   }
   .tlf22{
     background: url(./images/bg-pattern-circles.svg), rgb(51, 48, 71);
@@ -332,64 +330,56 @@ background-size: 150%;
   .textotlf{
     position: absolute;
     display: flex;
-    left: -515px;
+    left: -140%;
     margin-top: 40%;
     width: 70%;
-    font-size: 200%;
+    font-size: 220%;
   }
   .textotlf2{
     position: relative;
     display: flex;
     justify-content: center;
-    left: -550px;
+    left: -230%;
     margin-top: 100%;
     width: 100%;
     font-size: 100%;
   }
 
-  .boton6{
-    display: block;
-    position: absolute;
-    left: 4000px;
-    right: 20px;
-  }
+
   .logoimg{
-    height:25px;
+    height:7%;
     top: 30px;
      left: 100px;
   }
 
 
   .texto1{
-    top: 50px;
+    top: 10%;
     position:relative;
     font-size: 70% ;
     width: 60%;
     line-height: 25px;
   
-  left:70px ;
+  left:20% ;
   }
   .parrafo1{
-    left: -5px;
-    top: 60px;
+    left:1%;
+    top: 15%;
     position: relative;
   }
   .footer{
     width: 100%;
     height: 900px;
-border-top-right-radius: 70px;
+border-top-right-radius: 100px;
     
   }
 
   .listabotones3{
-  
-    
     display: flex;
     flex-direction: column;
     margin: 0;
-   left: 20px;
-   
-    
+   left: -2%;
+  
   }
   .boton8{
     top: 10%;
@@ -397,61 +387,59 @@ border-top-right-radius: 70px;
   }
   .sub_menu3{
     margin-top: 10%;
-    margin-left: 60px;
+    margin-left: 8%;
   }
   .boton9{
-    top:59%;
+    top:60%;
     left: 20%;
   }
   
   .sub_menu4{
-    margin-top: 45%;
-    margin-left: 150px;
+    margin-top: 35%;
+    margin-left: 22%;
   }
 
   .boton10{
-    margin-left:145px;
-    top:100px;
+    margin-left:22%;
+    top:200%;
     position: relative;
   }
   .sub_menu5{
    
-    margin-left: 150px; ;
-    margin-top: 130px;
+    margin-left: 22%; ;
+    margin-top:5%;
 
   }
   .imagenlogo2{
-    left: 145px;
-    width: 88px;
+    left:33%;
+    width: 25%;
   }
   .texto3{
-    margin-top: 350px;
+    font-size: 220%;
+    margin-top: 80%;
     position: relative;
-    left: 30px;
+    left: 10%;
   }
 
   .texto4{
+    font-size: 220%;
     position: relative;
-    left: 80px;
+    left: 10%;
   }
   .texto5{
-    margin-top: 450px;
-    font-size: 30px;
+    margin-top: 130%;
+    font-size: 220%;
     position: relative;
-    left: 80px;
+    left: 15%;
   }
   .parrafo4{
     position: relative;
-    left: -620px;
+    left: -170%;
     color: black;
     width: 70%;
     font-size: 100%;
   }
 
-  .parrafo5{
-    position: relative;
-    right: 20px;
-  }
 
   .texto6{
     margin-top: 100px;
@@ -464,34 +452,48 @@ border-top-right-radius: 70px;
 
     .parrafo5{
       position: relative;
-      left: -650px;
+      left: -170%;
       width: 80%;
-      margin-top: 190px;
+      margin-top: 50%;
     }
     .laptop{
-      width: 400px;
-      top: 420px;
+      width: 100%;
+      top: 70%;
       left: -150%;
-      position:relative;
+      position:absolute;
       display: flex;
     
     }
     .lpgrande{
-    width: 450px;
+    width: 100%;
     position: absolute;
     display: flex;
-    left: -15%;
-    top: 2450px;
+    left: -5%;
+    top: 380%;
     }
-
-    .boton11{
-      left: 40px;
-      position: relative;
-      background-color: black;
-    }
-
-
     .botonestlf{
       display: block;
     }
+    .boton12{
+      top: 35%;
+      position:absolute;
+      list-style: none;
+      text-decoration: none;
+      color: white;
+    left:-120% ;
+    }
+
+    .boton11{
+      display: block;
+      top: 35%;
+      position:absolute;
+      list-style: none;
+      text-decoration: none;
+      color: white;
+      background-color: white;
+   margin-left: 20%;
+   
+    }
+
+    
 }
