@@ -44,6 +44,12 @@
 .botonsolo a{
   color: tomato;
 }
+.boton11{
+  color: tomato;
+}
+.botonestlf{
+  display: none;
+}
 
 .laptop {
   width: 550px;
@@ -60,7 +66,7 @@
   width: 740px;
   position: absolute;
   right: 759px;
-  top: 1800px;
+  top: 1570px;
   bottom: 00px;
 }
 
