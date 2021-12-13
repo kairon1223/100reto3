@@ -53,17 +53,14 @@
   margin-top: 20px;
 }
 .boton7 {
-  
-  position:absolute;
+  position: absolute;
   margin-left: 650px;
   margin-top: 20px;
   border: 1px solid white;
   border-radius: 30px;
   padding: 10px;
-  
 }
 .boton4:hover {
-  
   background-color: white;
   color: tomato;
 }
@@ -74,17 +71,16 @@
 }
 
 .boton7:hover {
-
   background-color: white;
   color: tomato;
 }
 
 .boton6:hover {
-  background-color:rgb(255, 115, 127);
+  background-color: rgb(255, 115, 127);
   color: white;
 }
-.boton11{
- display: none;
+.boton11 {
+  display: none;
   background-color: white;
   border-radius: 30px;
   padding: 10px;
@@ -92,90 +88,83 @@
   margin-left: 500px;
   margin-top: 20px;
 }
-.boton11:hover{
-  background-color:rgb(255, 115, 127);
+.boton11:hover {
+  background-color: rgb(255, 115, 127);
   color: white;
 }
-.boton12{
-  position:absolute;
+.boton12 {
+  position: absolute;
   margin-left: 650px;
   margin-top: 20px;
   border: 1px solid white;
   border-radius: 30px;
   padding: 10px;
 }
-.boton12:hover{
+.boton12:hover {
   background-color: white;
   color: tomato;
 }
-*{
+* {
   padding: 0px;
   margin: 0px;
 }
-#menuu{
+#menuu {
   list-style: none;
-  margin:auto;
+  margin: auto;
   width: 700px;
 }
 
-ul,ol{
+ul,
+ol {
   list-style: none;
 }
 
-.menu2 ul li a{
-  
+.menu2 ul li a {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 15px 3px;
   display: block;
- font-family: "Overpass";
- display: flex;
- justify-content: center;
-  
-  
-  }
-  .menu2 ul li a:hover{
-    background-color: rgb(238, 225, 225);
+  font-family: "Overpass";
+  display: flex;
+  justify-content: center;
+}
+.menu2 ul li a:hover {
+  background-color: rgb(238, 225, 225);
 }
 
-
-.menu2 li ul{
-  
+.menu2 li ul {
   display: none;
   position: absolute;
   top: 75px;
   min-width: 140px;
 }
-.menu2 li:hover >ul{
-display: block;
+.menu2 li:hover > ul {
+  display: block;
 }
 
-
-.imagenlogo2{
+.imagenlogo2 {
   position: absolute;
- margin-top: 40px;
- left: 80px;
- width: 60px;
- height: auto;
+  margin-top: 40px;
+  left: 80px;
+  width: 60px;
+  height: auto;
 }
-.boton9{
-  
+.boton9 {
   list-style: none;
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
 
-.listabotones3{
+.listabotones3 {
   float: left;
   display: flex;
-  position:relative;
+  position: relative;
   left: 200px;
   font-family: "Overpass";
-
 }
 
-.boton8{
+.boton8 {
   text-decoration: none;
   position: absolute;
   left: 82px;
@@ -184,7 +173,7 @@ display: block;
   color: white;
 }
 
-.sub_menu3{
+.sub_menu3 {
   line-height: 25px;
   position: relative;
   left: 80px;
@@ -193,21 +182,19 @@ display: block;
   padding: 0px;
 }
 
-.sub_menu3  a{
-  
+.sub_menu3 a {
   color: white;
   text-decoration: none;
 }
 
-
-.boton9{
+.boton9 {
   font-size: 19px;
   position: absolute;
   left: 450px;
   margin-top: -70px;
 }
 
-.sub_menu4{
+.sub_menu4 {
   line-height: 25px;
   position: relative;
   margin-left: 465px;
@@ -215,26 +202,21 @@ display: block;
   color: white;
 }
 
-.sub_menu4  a{
-  
+.sub_menu4 a {
   color: white;
   text-decoration: none;
 }
 
-
-
-
-
-.boton10{
+.boton10 {
   font-size: 19px;
-   position:relative;
+  position: relative;
   text-decoration: none;
   color: white;
   margin-left: 754px;
   top: -165px;
 }
 
-.sub_menu5{
+.sub_menu5 {
   padding: 0;
   position: relative;
   margin-left: 759px;
@@ -243,19 +225,15 @@ display: block;
   line-height: 25px;
 }
 
-.sub_menu5  a{
-
+.sub_menu5 a {
   color: white;
   text-decoration: none;
 }
 
-
-
 /*boton amburguza*/
 
-#ham{
-  
- display: none;
+#hamburgueza1 {
+  display: none;
   padding: 10px;
   width: 50px;
   height: 50px;
@@ -266,33 +244,71 @@ display: block;
   border: none;
   background-color: transparent;
 }
-.imgdetlf{
+.imgdetlf {
   display: none;
 }
+.listabotones5{
+  display: none;
+  list-style: none;
+  text-decoration: none;
+ 
+ 
+  position: relative;
+   top: 0;
+}
+.boton13{
+ color: rgb(15, 21, 36);
+ text-decoration: none;
+ font-family: "Overpass";
+}
+.boton14{
+  color: rgb(15, 21, 36);
+  text-decoration: none;
+  font-family: "Overpass";
+ }
+ .boton15{
+  color: rgb(15, 21, 36);
+  text-decoration: none;
+  font-family: "Overpass";
+ }
+ .boton16{
+  color: rgb(15, 21, 36);
+  text-decoration: none;
+  font-family: "Overpass";
+ }
 
-
+ .boton17{
+  color: rgb(15, 21, 36);
+  text-decoration: none;
+  font-family: "Overpass";
+ }
 /*boton amburguza*/
 
-@media screen and (max-width:378px){
-   .contenedor{
-     display: block;
-     max-width: 378px;
-     width: 100%;
-     
-    
-   }
-  .parrafo2{
+@media screen and (max-width: 378px) {
+  .contenedor {
+    overflow: hidden;
+    display: block;
+    max-width: 378px;
+    width: 100%;
+  }
+
+  .logo2 {
+    background-size: 250%;
+    background-position: 40% 35%;
+  }
+
+  .parrafo2 {
     position: relative;
     width: 60%;
     top: 200%;
     left: 15%;
     font-size: 100%;
-   
   }
- #ham{
-  left: 80%;
-  top: -35%;
-    background-color: black;
+
+  /*hamburgueza*/
+  #hamburgueza1{
+    left: 80%;
+    top: -35%;
     display: block;
     padding: 10px;
     width: 50px;
@@ -303,31 +319,61 @@ display: block;
     background-color: transparent;
   }
 
-   .contenedor{
-     overflow: hidden;
-   }
-  .listabotones2{
-   display: none;
+
+  /*hamburgueza*/
+
+ .listabotones5{
+ order: 3;
+   display: flex;
+   width: 100%;
+  top: -150px;
+ }
+
+
+ .listabotones5 a{
+  padding: 10px 15px;
+   text-align: center;
+   width: 200px;
+   left: 50px;
+   list-style: none;
+ text-decoration: none;
+ display: flex;
+ flex-direction: column;
+  transform: translate(-100%);
+ background-color: rgb(255, 255, 255);
+ padding: auto;
+ position: relative;
+ 
+ 
+ }
+
+
+
+ 
+  .listabotones2 {
+    display: none;
   }
-  .contenedordeheder,.telefonos,.primerostextoseimagenes{
-     display: block;
-     flex-direction: column;
+  .contenedordeheder,
+  .telefonos,
+  .primerostextoseimagenes {
+    display: block;
+    flex-direction: column;
   }
-  .telefonos{
-    height:100%;
+  .telefonos {
+    height: 100%;
   }
-  .telefonos img{
-    height:55%;
+  .telefonos img {
+    height: 55%;
     left: 10px;
-    top:259%;
+    top: 259%;
   }
-  .tlf22{
+  .tlf22 {
     background: url(./images/bg-pattern-circles.svg), rgb(51, 48, 71);
-background-size: 150%;
-  background-position:60%  -400% ;
-  background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: 60% -400%;
+    background-repeat: no-repeat;
   }
-  .textotlf{
+  .textotlf {
     position: absolute;
     display: flex;
     left: -140%;
@@ -335,7 +381,7 @@ background-size: 150%;
     width: 70%;
     font-size: 220%;
   }
-  .textotlf2{
+  .textotlf2 {
     position: relative;
     display: flex;
     justify-content: center;
@@ -345,94 +391,88 @@ background-size: 150%;
     font-size: 100%;
   }
 
-
-  .logoimg{
-    height:7%;
+  .logoimg {
+    height: 7%;
     top: 30px;
-     left: 100px;
+    left: 100px;
   }
 
-
-  .texto1{
+  .texto1 {
     top: 10%;
-    position:relative;
-    font-size: 70% ;
+    position: relative;
+    font-size: 70%;
     width: 60%;
     line-height: 25px;
-  
-  left:20% ;
+
+    left: 20%;
   }
-  .parrafo1{
-    left:1%;
+  .parrafo1 {
+    left: 1%;
     top: 15%;
     position: relative;
   }
-  .footer{
+  .footer {
     width: 100%;
     height: 900px;
-border-top-right-radius: 100px;
-    
+    border-top-right-radius: 100px;
   }
 
-  .listabotones3{
+  .listabotones3 {
     display: flex;
     flex-direction: column;
     margin: 0;
-   left: -2%;
-  
+    left: -2%;
   }
-  .boton8{
+  .boton8 {
     top: 10%;
     left: 20%;
   }
-  .sub_menu3{
+  .sub_menu3 {
     margin-top: 10%;
     margin-left: 8%;
   }
-  .boton9{
-    top:60%;
+  .boton9 {
+    top: 60%;
     left: 20%;
   }
-  
-  .sub_menu4{
+
+  .sub_menu4 {
     margin-top: 35%;
     margin-left: 22%;
   }
 
-  .boton10{
-    margin-left:22%;
-    top:200%;
+  .boton10 {
+    margin-left: 22%;
+    top: 200%;
     position: relative;
   }
-  .sub_menu5{
-   
-    margin-left: 22%; ;
-    margin-top:5%;
-
+  .sub_menu5 {
+    margin-left: 22%;
+    margin-top: 5%;
   }
-  .imagenlogo2{
-    left:33%;
+  .imagenlogo2 {
+    left: 33%;
     width: 25%;
   }
-  .texto3{
+  .texto3 {
     font-size: 220%;
     margin-top: 80%;
     position: relative;
     left: 10%;
   }
 
-  .texto4{
+  .texto4 {
     font-size: 220%;
     position: relative;
     left: 10%;
   }
-  .texto5{
+  .texto5 {
     margin-top: 130%;
     font-size: 220%;
     position: relative;
     left: 15%;
   }
-  .parrafo4{
+  .parrafo4 {
     position: relative;
     left: -170%;
     color: black;
@@ -440,60 +480,61 @@ border-top-right-radius: 100px;
     font-size: 100%;
   }
 
-
-  .texto6{
+  .texto6 {
     margin-top: 100px;
     font-size: 30px;
-   width: 100%;
-   position: absolute;
-   left:-65px;
-   
-    }
+    width: 100%;
+    position: absolute;
+    left: -65px;
+  }
 
-    .parrafo5{
-      position: relative;
-      left: -170%;
-      width: 80%;
-      margin-top: 50%;
-    }
-    .laptop{
-      width: 100%;
-      top: 70%;
-      left: -150%;
-      position:absolute;
-      display: flex;
-    
-    }
-    .lpgrande{
+  .parrafo5 {
+    position: relative;
+    left: -170%;
+    width: 80%;
+    margin-top: 50%;
+  }
+  .laptop {
+    width: 100%;
+    top: 70%;
+    left: -150%;
+    position: absolute;
+    display: flex;
+  }
+  .lpgrande {
     width: 100%;
     position: absolute;
     display: flex;
     left: -5%;
     top: 380%;
-    }
-    .botonestlf{
-      display: block;
-    }
-    .boton12{
-      top: 35%;
-      position:absolute;
-      list-style: none;
-      text-decoration: none;
-      color: white;
-    left:-120% ;
-    }
+  }
+  .botonestlf {
+    display: block;
+  }
+  .boton12 {
+    top: 35%;
+    position: absolute;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    left: -120%;
+  }
 
-    .boton11{
-      display: block;
-      top: 35%;
-      position:absolute;
-      list-style: none;
-      text-decoration: none;
-      color: white;
-      background-color: white;
-   margin-left: 20%;
-   
-    }
+  .boton11 {
+    display: block;
+    top: 35%;
+    position: absolute;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    background-color: white;
+    margin-left: 20%;
+  }
 
-    
+  .listabotones {
+    display: none;
+  }
+
+
+ 
 }

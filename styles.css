@@ -30,17 +30,13 @@
 
 
 .listabotones2 a {
+  font-family: "Overpass";
   color: rgb(255, 255, 255);
   text-decoration: none;
   display: flex;
 }
 
-.listabotones a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  display: flex;
-  justify-content: left;
-}
+
 .botonsolo a{
   color: tomato;
 }
