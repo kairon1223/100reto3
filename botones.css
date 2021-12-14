@@ -323,32 +323,45 @@ ol {
   /*hamburgueza*/
 
  .listabotones5{
- order: 3;
+ position: relative;
    display: flex;
-   width: 100%;
-  top: -150px;
+   width: 50%;
+  top:-40%;
+  background-color: rgb(238, 178, 178);
+  right: -300%;
+  left: -60%;
+  height: 80%;
+ 
  }
 
 
  .listabotones5 a{
-  padding: 10px 15px;
+   display: block;
+  padding: 20px 15px;
    text-align: center;
-   width: 200px;
-   left: 50px;
+   width: 155px;
+   
    list-style: none;
  text-decoration: none;
  display: flex;
  flex-direction: column;
-  transform: translate(-100%);
- background-color: rgb(253, 253, 253);
+  transform: translate(-0%);
+ 
  padding: auto;
  position: relative;
  
  
  }
 
+ 
+ 
 
-
+.sub_menu{
+  display: block;
+  position: relative;
+  width: 300px;
+  left: 15px;
+}
  
   .listabotones2 {
     display: none;
